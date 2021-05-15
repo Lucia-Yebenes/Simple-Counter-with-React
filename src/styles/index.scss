@@ -12,18 +12,20 @@
 
 */
 body{
-    background-color: #2D3F50;
+   background: linear-gradient(70deg, #DB8301, #F9EC00);
+   height: 900px;
+   
 }
-*{
+/**{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
+}*/
 .body{
     background-color: transparent;
     max-width: 600px;
-    width: 90%;
-    height: 500px;
+    //width: 90%;
+    //height: 100%;
     margin: 30px auto;
 }
 .container{
@@ -37,8 +39,8 @@ body{
     text-align: center;
 }
 .counter span{
-    background-color: #00ABA9;
-    color: #fff;
+    background-color: #EA843A;
+    color: #FFFCB5;
     display: inline-block;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
@@ -47,20 +49,25 @@ body{
     width: 70px;
 }
 .btn{
-background-color: #00ABA9;
+background-color: #FFFCB5;
 margin-top: 30px;
 margin-left: 5px;
-border: 2px solid #00ABA9;
-color:#fff ;
+border: none;
+color:#EA843A ;
 padding: 12px 20px;
 font-size: 30px;
-text-transform: uppercase;
+//text-transform: uppercase;
 width: 150px;
 font-family: 'Indie Flower', cursive;
 }
 h1{
-    color:#00ABA9;
-    margin-bottom: 20px;
+    color:#FFFCB5;
+    margin-bottom: 5px;
     font-family: 'Indie Flower', cursive;
-    
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.fas{
+    color:#FB633E ;
+    font-size: 70px;
+    margin-bottom: 20px;
 }

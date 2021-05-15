@@ -53,6 +53,7 @@ export function Home() {
 			<div className="container">
 				<div className="counter">
 					<h1>Simple Counter</h1>
+					<i className="fas fa-stopwatch"></i>
 					<Counter time={time} />
 					<Button start={start} />
 				</div>
