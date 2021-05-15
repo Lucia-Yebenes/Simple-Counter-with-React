@@ -28,7 +28,7 @@ body{
 }
 .container{
     width: 100%;
-    background-color: #fff;
+    //background-color: #fff;
     margin: 30px auto;
     position: relative;
 }
@@ -40,22 +40,27 @@ body{
     background-color: #00ABA9;
     color: #fff;
     display: inline-block;
-    font-family: monospace;
-    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
     padding: 20px;
     border-radius: 5px;
     width: 70px;
 }
 .btn{
-background-color: #fff;
+background-color: #00ABA9;
 margin-top: 30px;
 margin-left: 5px;
 border: 2px solid #00ABA9;
-color:#00ABA9 ;
+color:#fff ;
 padding: 12px 20px;
-font-size: 16px;
+font-size: 30px;
 text-transform: uppercase;
 width: 150px;
-//transition: background 1s;
-//cursor: pointer;
+font-family: 'Indie Flower', cursive;
+}
+h1{
+    color:#00ABA9;
+    margin-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    
 }

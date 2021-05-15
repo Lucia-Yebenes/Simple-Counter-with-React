@@ -18,23 +18,23 @@ export function Home() {
 		updateA = time.a;
 
 	const run = () => {
-		if (updateD === 360) {
+		if (updateD === 10) {
 			updateA++;
 			updateD = 0;
 		}
-		if (updateH === 24) {
+		if (updateH === 10) {
 			updateD++;
 			updateH = 0;
 		}
-		if (updateM === 60) {
+		if (updateM === 10) {
 			updateH++;
 			updateM = 0;
 		}
-		if (updateS === 60) {
+		if (updateS === 10) {
 			updateM++;
 			updateS = 0;
 		}
-		if (updateMs === 100) {
+		if (updateMs === 10) {
 			updateS++;
 			updateMs = 0;
 		}
@@ -52,6 +52,7 @@ export function Home() {
 		<div className="body">
 			<div className="container">
 				<div className="counter">
+					<h1>Simple Counter</h1>
 					<Counter time={time} />
 					<Button start={start} />
 				</div>
